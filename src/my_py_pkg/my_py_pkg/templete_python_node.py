@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 
 class MyCustomNode(Node):
-    def __int__(self):
+    def __init__(self):
         super().__init__("node_name")
 
 def main(args=None):
